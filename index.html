@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re - Página de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-banner-container">
+            <img src="img/retrovibes.png" alt="Logo de LevelUp" class="logo">
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="noticias.html" title="Noticias">Noticias</a></li>
+                <li><a href="reseñas.html" title="Reseñas">Reseñas</a></li>
+                <li><a href="guias.html" title="Guías y Tutoriales">Guías y Tutoriales</a></li>
+                <li><a href="comunidad.html" title="Comunidad">Comunidad</a></li>
+                <li><a href="catalogo.html" title="catalogo">Catalogo</a></li>
+                <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <img src="banner/gift.gif" alt="Banner de LevelUp" width="10" height="200">
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido a RetroVibes</h2>
+            <p>Explora el apasionante mundo de los videojuegos con RetroVibes. Nuestro portal está dedicado a todos los amantes del gaming, desde los clásicos de antaño hasta los lanzamientos más recientes y revolucionarios. RetroVibes es tu destino definitivo para descubrir, discutir y disfrutar de todo lo relacionado con los videojuegos.
+
+                Encuentra reseñas detalladas, noticias de última hora, y análisis profundos sobre tus títulos favoritos, sin importar su época. Ya seas un veterano de los juegos retro o un entusiasta de los últimos avances tecnológicos, en RetroVibes tenemos algo para ti.
+                
+                Únete a nuestra comunidad vibrante y activa, donde jugadores de todos los niveles comparten sus experiencias, consejos y aventuras. RetroVibes es más que un sitio web; es un punto de encuentro para todos aquellos que aman los videojuegos en todas sus formas
+                
+            .</p> 
+        </section>
+        <section class="destacados">
+            <h2>Juegos Destacados</h2>
+            <div class="juegos">
+                <div class="juego">
+                    <img src="img/fifa.jpg" alt="FC 25" class="game-image">
+                    <h3>FC 25</h3>
+                </div>
+                <div class="juego">
+                    <img src="img/wukong.jpg" alt="Wukong Black Myth" class="game-image">
+                    <h3>Wukong Black Myth</h3>
+                </div>
+                <div class="juego">
+                    <img src="img/god.jpg" alt="God of War" class="game-image">
+                    <h3>God of War</h3>
+                </div>
+                <div class="juego">
+                    <img src="img/rdr2.jpg" alt="rdr2" class="game-image">
+                    <h3>Red Dead Redemption II</h3>
+                </div>
+                <div class="juego">
+                    <img src="img/tlou.jpg" alt="tlou" class="game-image">
+                    <h3>The Last of Us</h3>
+                </div>
+                <div class="juego">
+                   <img src="img/uncharted.jpg" alt="uncharted" class="game-image">
+                   <h3>Uncharted 4</h3>    
+                </div>
+                <div class="juego">
+                   <img src="img/minecrft.jpg" alt="minecrft" class="game-image">
+                   <h3>Minecrft</h3>
+                </div>
+                <div class="juego">
+                   <img src="img/indiana.jpg" alt="indiana" class="game-image">
+                   <h3>Indiana Jones</h3>
+                </div>
+                <div class="juego">
+                   <img src="img/eldenring.jpg" alt="eldenring" class="game-image">
+                   <h3>Elden Ring</h3>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 RetroVibes Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('nav .menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
